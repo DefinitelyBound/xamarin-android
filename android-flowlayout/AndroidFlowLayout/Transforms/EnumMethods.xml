@@ -1,0 +1,19 @@
+﻿<enum-method-mappings>
+  <!--
+  This example changes the Java method:
+    android.support.v4.app.Fragment.SavedState.writeToParcel (int flags)
+  to be:
+    android.support.v4.app.Fragment.SavedState.writeToParcel (Android.OS.ParcelableWriteFlags flags)
+  when bound in C#.
+
+  <mapping jni-class="android/support/v4/app/Fragment.SavedState">
+    <method jni-name="writeToParcel" parameter="flags" clr-enum-type="Android.OS.ParcelableWriteFlags" />
+  </mapping>
+  -->
+  <mapping jni-class="org/apmem/tools/layouts/FlowLayout">
+    <method jni-name="getOrientation" parameter="return" clr-enum-type="Android.Widget.Orientation" />
+    <method jni-name="setOrientation" parameter="p0" clr-enum-type="Android.Widget.Orientation" />
+    <method jni-name="getGravity" parameter="return" clr-enum-type="Android.Views.GravityFlags" />
+    <method jni-name="setGravity" parameter="p0" clr-enum-type="Android.Views.GravityFlags" />
+  </mapping>
+</enum-method-mappings>

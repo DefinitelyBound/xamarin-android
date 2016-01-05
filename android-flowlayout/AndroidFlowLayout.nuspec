@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>AndroidFlowLayout</id>
+        <version>1.9.0.1</version>
+        <title>AndroidFlowLayout</title>
+        <authors>Dennis Daume</authors>
+        <owners>Dennis Daume</owners>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/TheBinding/AndroidFlowLayout</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Linear layout, that wrap its content to the next line if there is no space in the current line.</description>
+        <tags>Xamarin Android Flow Layout</tags>
+    </metadata>
+    <files>
+        <file src="AndroidFlowLayout\bin\Release\AndroidFlowLayout.dll" target="lib\monoandroid403\AndroidFlowLayout.dll" />
+    </files>
+</package>

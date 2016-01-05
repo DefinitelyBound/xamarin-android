@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>AndroidCircleDisplay</id>
+        <version>0.1.0</version>
+        <title>AndroidCircleDisplay</title>
+        <authors>Dennis Daume</authors>
+        <owners>Dennis Daume</owners>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/TheBinding/AndroidCircleDisplay</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Xamarin.Android binding of the https://github.com/PhilJay/CircleDisplay library</description>
+        <tags>Xamarin Android circle display</tags>
+    </metadata>
+    <files>
+        <file src="AndroidCircleDisplay\bin\Release\AndroidCircleDisplay.dll" target="lib\monoandroid403\AndroidCircleDisplay.dll" />
+    </files>
+</package>

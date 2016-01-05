@@ -1,0 +1,14 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='org.adw.library.widgets.discreteseekbar']" name="managedName">DiscreteSeekBar</attr>
+  <attr path="/api/package[@name='org.adw.library.widgets.discreteseekbar.internal']" name="managedName">DiscreteSeekBar.Internal</attr>
+  <attr path="/api/package[@name='org.adw.library.widgets.discreteseekbar.internal.compat']" name="managedName">DiscreteSeekBar.Internal.Compat</attr>
+  <attr path="/api/package[@name='org.adw.library.widgets.discreteseekbar.internal.drawable']" name="managedName">DiscreteSeekBar.Internal.Drawable</attr>
+</metadata>
